@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>it.matteo.dataflow</groupId>
+    <artifactId>dataflow</artifactId>
+    <version>1.0.3-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    
+    <name>Dataflow :: Parent</name>
+    
+    <scm>
+        <connection>scm:git:https://github.com/mino181295/dataflow.git</connection>
+        <developerConnection>scm:git:https://github.com/mino181295/dataflow.git</developerConnection>
+        <url>https://github.com/mino181295/dataflow</url>
+        <tag>HEAD</tag>
+    </scm>
+    
+    <developers>
+        <developer>
+            <name>Matteo Minardi</name>
+            <email>minardi.matteo@hotmail.it</email>
+        </developer>
+    </developers>
+
+    
+    <modules>
+        <module>dataflow.datamodel</module>
+        <module>dataflow.website</module>
+    </modules>
+    
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        
+        <lib.junit.version>4.12</lib.junit.version>
+        <lib.hamcrest-core.version>1.3</lib.hamcrest-core.version>
+        
+        <spotbugs-maven-plugin.version>3.1.0-RC6</spotbugs-maven-plugin.version>
+        
+    </properties>
+    
+    <dependencyManagement>
+        
+        <dependencies>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${lib.junit.version}</version>
+                <scope>test</scope>
+                <type>jar</type>
+            </dependency>
+            
+            <dependency>
+                <groupId>org.hamcrest</groupId>
+                <artifactId>hamcrest-core</artifactId>
+                <version>${lib.hamcrest-core.version}</version>
+                <scope>test</scope>
+                <type>jar</type>
+            </dependency>
+        </dependencies>
+        
+    </dependencyManagement>
+    
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.github.spotbugs</groupId>
+                <artifactId>spotbugs-maven-plugin</artifactId>
+                <version>${spotbugs-maven-plugin.version}</version>
+            </plugin>
+        </plugins>
+    </build>
+    
+</project>
