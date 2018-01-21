@@ -21,11 +21,10 @@
             <email>minardi.matteo@hotmail.it</email>
         </developer>
     </developers>
-
     
     <modules>
-        <module>dataflow.datamodel</module>
-        <module>dataflow.website</module>
+        <module>dataflow-datamodel</module>
+        <module>dataflow-website</module>
     </modules>
     
     <properties>
@@ -35,7 +34,6 @@
         <lib.hamcrest-core.version>1.3</lib.hamcrest-core.version>
         
         <spotbugs-maven-plugin.version>3.1.0-RC6</spotbugs-maven-plugin.version>
-        
     </properties>
     
     <dependencyManagement>

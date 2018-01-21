@@ -7,7 +7,7 @@
         <version>1.0.3-SNAPSHOT</version>
     </parent>
 
-    <artifactId>dataflow.website</artifactId>
+    <artifactId>dataflow-website</artifactId>
     <version>1.0.3-SNAPSHOT</version>
     <packaging>war</packaging>
 

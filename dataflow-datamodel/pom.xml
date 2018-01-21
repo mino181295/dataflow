@@ -6,7 +6,7 @@
         <artifactId>dataflow</artifactId>
         <version>1.0.3-SNAPSHOT</version>
     </parent>
-    <artifactId>dataflow.datamodel</artifactId>
+    <artifactId>dataflow-datamodel</artifactId>
     <packaging>jar</packaging>
     
     <properties>
