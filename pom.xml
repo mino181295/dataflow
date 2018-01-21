@@ -22,8 +22,12 @@
         </developer>
     </developers>
     
-    <modules>
-        <module>dataflow-datamodel</module>
+    <modules>        
+        <module>dataflow-model</module>
+        <module>dataflow-kafka</module>
+        <module>dataflow-hbase</module>
+        <module>dataflow-storm</module>
+        <module>dataflow-streaming-api</module>
         <module>dataflow-website</module>
     </modules>
     
