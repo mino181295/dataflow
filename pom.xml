@@ -63,13 +63,18 @@
     </dependencyManagement>
     
     <build>
-        <plugins>
-            <plugin>
-                <groupId>com.github.spotbugs</groupId>
-                <artifactId>spotbugs-maven-plugin</artifactId>
-                <version>${spotbugs-maven-plugin.version}</version>
-            </plugin>
-        </plugins>
+        <pluginManagement>
+            
+            <plugins>
+                <plugin>
+                    <groupId>com.github.spotbugs</groupId>
+                    <artifactId>spotbugs-maven-plugin</artifactId>
+                    <version>${spotbugs-maven-plugin.version}</version>
+                </plugin>
+            </plugins>
+            
+        </pluginManagement>
+
     </build>
     
 </project>
