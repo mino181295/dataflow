@@ -4,7 +4,7 @@
     <parent>
         <groupId>it.matteo.dataflow</groupId>
         <artifactId>dataflow-streaming-api</artifactId>
-        <version>1.0.3-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
     <artifactId>dataflow-java-api</artifactId>
     <packaging>jar</packaging>

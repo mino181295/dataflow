@@ -4,11 +4,11 @@
     <parent>
         <groupId>it.matteo.dataflow</groupId>
         <artifactId>dataflow</artifactId>
-        <version>1.0.3-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
 
     <artifactId>dataflow-website</artifactId>
-    <version>1.0.3-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>war</packaging>
 
     <name>Dataflow :: Website</name>
@@ -28,8 +28,8 @@
         
         <dependency>
             <groupId>it.matteo.dataflow</groupId>
-            <artifactId>datamodel</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <artifactId>dataflow-model</artifactId>
+            <version>1.0.0</version>
         </dependency>
         
     </dependencies>

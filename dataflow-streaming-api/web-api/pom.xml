@@ -4,12 +4,12 @@
     <parent>
     <artifactId>dataflow-streaming-api</artifactId>
     <groupId>it.matteo.dataflow</groupId>
-    <version>1.0.3-SNAPSHOT</version>
+    <version>1.0.0</version>
   </parent>
 
     <groupId>it.matteo.dataflow</groupId>
     <artifactId>dataflow-web-api</artifactId>
-    <version>1.0.3-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>war</packaging>
 
     <name>Dataflow :: Web API</name>
