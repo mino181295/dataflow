@@ -11,11 +11,17 @@
     <artifactId>dataflow-kafka</artifactId>
     <packaging>jar</packaging>
     <dependencies>
-        
         <dependency>
             <groupId>org.apache.kafka</groupId>
-            <artifactId>kafka-clients</artifactId>
+            <artifactId>kafka_2.12</artifactId>
             <version>1.0.0</version>
+            <type>jar</type>
+        </dependency>
+        
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
             <type>jar</type>
         </dependency>
         

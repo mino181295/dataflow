@@ -5,16 +5,16 @@
  */
 package kafka.consumer;
 
+import java.util.Map;
+
 /**
  * @author Matteo Minardi
  */
-public interface CustomConsumer {
-    
+public interface CustomConsumer extends AutoCloseable {
+
     /**
-     * 
-     * @throws Exception 
+     * @return
      */
-    void recive() throws Exception;
-    
-    
+    Map<Long, String> recive();
+
 }

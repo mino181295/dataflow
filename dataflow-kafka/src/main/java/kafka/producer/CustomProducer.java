@@ -8,12 +8,12 @@ package kafka.producer;
 /**
  * @author matteo
  */
-public interface CustomProducer {
+public interface CustomProducer extends AutoCloseable {
     /**
      * 
      * @param message
      * @throws Exception 
      */
-    void emit(String message) throws Exception;
+    long emit(String message) throws Exception;
     
 }

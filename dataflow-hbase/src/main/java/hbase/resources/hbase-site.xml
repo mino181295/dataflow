@@ -21,24 +21,29 @@
  */
 -->
 <configuration>
-  <property>
-    <name>hbase.rootdir</name>
-    <value>file:///tmp/hbase-matteo/hbase</value>
-  </property>
-  <property>
-    <name>dfs.replication</name>
-    <value>1</value>
-  </property>
-  <property>
-    <name>hbase.zookeeper.property.dataDir</name>
-    <value>/tmp/hbase-matteo/zookeeper</value>
-  </property>
-  <property>
-    <name>hbase.zookeeper.quorum</name>
-    <value>localhost</value>
-  </property>
-  <property>
-    <name>hbase.zookeeper.property.clientPort</name>
-    <value>2181</value>
-  </property>
+    <property>
+        <name>hbase.rootdir</name>
+        <value>file:///tmp/hbase-matteo/hbase</value>
+    </property>
+    <property>
+        <name>dfs.replication</name>
+        <value>1</value>
+    </property>
+    <property>
+        <name>hbase.zookeeper.property.dataDir</name>
+        <value>/tmp/hbase-matteo/zookeeper</value>
+    </property>
+    <property>
+        <name>hbase.zookeeper.quorum</name>
+        <value>localhost</value>
+    </property>
+    <property>
+        <name>hbase.zookeeper.property.clientPort</name>
+        <value>2181</value>
+    </property>
+    <property>
+        <name>hbase.table.sanity.checks</name>
+        <value>false</value>
+        <description>Skip sanity checks in tests</description>
+    </property>
 </configuration>
